@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex: 1;
+    background-color: #3D84B8;
+    color: #f9faf8;
+    
+}
+
+/* SETTING THE FLEX PROPERTY ON ALL DIV */
+.container > div{
+    /* flex: 1; */
+}
+
+/* CONTENER FOR ALL CONTENT ON THE PAGE */
+.container{
+    border-top: solid #FFEDDA;
+    border-bottom: solid #FFEDDA;
+    width: 1500px;
+    height: 75%; 
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* HEADER SECTION STYLES */
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 2em;
+    gap: 40%;
+}
+
+.header ul{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header li{
+    list-style-type: none;
+}
+
+.header a{
+    text-decoration: none;
+    color: #FFEDDA;
+}
+
+.header img{
+    height: 30px;
+    color: #FFEDDA;
+}
+
+/* WELCOM STATMENT */
+.welcomebody{
+    /* background-color: black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.welcomebody .welcome{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    width: 50%;
+}
+
+.welcomeStatment{
+    display: flex;
+    flex-direction: row;
+}
+
+.welcomebody .welcomeHeader{
+    text-align: center;
+}
+
+.aboutMe{
+    /* background-color: green; */
+    border-left: solid #FFEDDA;
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+}
+
+/* PROJECTS SECTION */
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 20px;
+    border-left: solid #FFEDDA;
+    padding: 20px;
+}
+
+.projects a{
+    text-decoration: none;
+    color: #FFEDDA;
+    padding: 0;
+}
+
+
+
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end ;
+}
